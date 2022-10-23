@@ -1,1 +1,1 @@
-# DOS2_Def_NecromancerClass
+# Necromancer Class for Divinity Original Sin 2 DE
