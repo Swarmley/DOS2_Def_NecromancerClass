@@ -1,0 +1,32 @@
+#INCLUDE Necro_summons
+INIT
+	USING Necro_summons
+	CHARACTER:__Me
+
+
+EVENTS
+
+EVENT NECRO_Init OVERRIDE
+ON
+	OnTimer(Necro_Init_Check)
+VARS
+	CHARACTER: _Owner
+ACTIONS
+	IF "!c1&(c2)"
+		CharacterHasStatus(__Me,"NECRO_SKELETAL_MAGE_WATER")
+		IsInSurface(__Me,SurfaceWater)
+	THEN
+		CharacterApplyStatus(__Me, "NECRO_SKELETAL_MAGE_WATER",-1,1)
+	ENDIF
+	IF "c1&c2"
+		CharacterGetOwner(_Owner,__Me)
+		CharacterHasStatus(_Owner,"NECRO_CONTROL")
+	THEN
+		CharacterApplyStatus(__Me, "SUMMON_NECRO",-1,1)
+	ENDIF
+	IF "c1&!c2"
+	CharacterGetOwner(_Owner,__Me)
+	CharacterHasStatus(__Me, "NECRO_ACTIVE_SKELETON")
+	THEN
+	CharacterApplyStatus(__Me, "NECRO_ACTIVE_SKELETON",0,1)
+	ENDIF

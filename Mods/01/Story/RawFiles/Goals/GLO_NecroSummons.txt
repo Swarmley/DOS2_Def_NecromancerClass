@@ -1,0 +1,211 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+
+
+KBSECTION
+//REGION // UndeadControl
+IF
+CharacterStatusApplied((CHARACTERGUID)_Char,"SUMMON_NECRO",_)
+AND
+HasActiveStatus(_Char,"SUMMON_NECRO",1)
+AND
+CharacterGetOwner(_Char, _Player)
+THEN
+DB_NECRO_CONTROLED(_Char,_Player);
+
+IF
+CharacterStatusRemoved((CHARACTERGUID)_Char,"SUMMON_NECRO",_)
+AND
+NOT HasActiveStatus(_Char,"SUMMON_NECRO",1)
+AND
+CharacterGetOwner(_Char, _Player)
+THEN
+CharacterRemoveFromPlayerCharacter(_Char,_Player);
+//CharacterRemoveFromParty(_Char);
+CharacterAddToPlayerCharacter(_Char,_Player);
+NOT DB_NECRO_CONTROLED(_Char,_Player);
+//END_REGION
+
+//REGION //Necromancy skeleton scaling
+IF
+CharacterStatusApplied(_Minion, "NECRO_ACTIVE_SKELETON",_)
+AND
+CharacterGetOwner(_Minion,_Master)
+THEN
+DB_Necro_ActiveSkeletons(_Master,_Minion);
+
+
+IF
+DB_Necro_ActiveSkeletons(_Master,_Minion)
+THEN
+PROC_Necro_AddCounter(_Master);
+PROC_Necro_CheckCounter();
+
+PROC
+PROC_Necro_CheckCounter()
+AND
+DB_Necro_ActiveSkeletons(_Master,_Minion)
+AND
+CharacterGetBaseAbility(_Master,"Necromancy", _Value)
+AND
+DB_Necro_Counter(_Master,_Counter)
+AND
+_Value < _Counter
+AND
+NOT DB_Necro_KillOnce(1)
+THEN
+DB_Necro_KillOnce(1);
+CharacterDie(_Minion,0,"DoT");
+
+PROC
+PROC_Necro_CheckCounter()
+THEN
+NOT DB_Necro_KillOnce(1);
+
+IF
+CharacterDied(_Minion)
+AND
+CharacterGetOwner(_Minion,_Master)
+AND
+DB_Necro_ActiveSkeletons(_Master, _Minion)
+THEN
+PROC_Necro_DecreaseCounter(_Master);
+NOT DB_Necro_ActiveSkeletons(_Master, _Minion);
+//END_REGION
+
+//REGION
+
+//Decrease counter
+PROC
+PROC_Necro_DecreaseCounter((CHARACTERGUID)_Character)
+THEN
+PROC_Necro_DecreaseCounter(_Character,1);
+
+PROC
+PROC_Necro_DecreaseCounter((CHARACTERGUID)_Character, (INTEGER)_Value)
+AND
+DB_Necro_Counter(_Character,_OldValue)
+AND
+IntegerSubtract(_OldValue,_Value, _New)
+THEN
+NOT DB_Necro_Counter(_Character,_OldValue);
+DB_Necro_Counter(_Character,_New);
+
+PROC
+PROC_Necro_DecreaseCounter((CHARACTERGUID)_Character,_)
+AND
+NOT DB_Necro_Counter(_Character,_)
+THEN
+DB_Necro_Counter(_Character,0);
+
+
+//End Deincrease counter
+IF 
+DB_Necro_Counter(_Character, _Counter)
+AND
+_Counter < 0
+THEN
+NOT DB_Necro_Counter(_Character, _Counter);
+DB_Necro_Counter(_Character, 0);
+
+
+//Increase counter
+PROC
+PROC_Necro_AddCounter((CHARACTERGUID)_Character)
+THEN
+PROC_Necro_AddCounter(_Character,1);
+
+
+PROC
+PROC_Necro_AddCounter((CHARACTERGUID)_Character,_)
+AND
+NOT DB_Necro_Counter(_Character,_)
+THEN
+DB_Necro_Counter(_Character,0);
+
+
+PROC
+PROC_Necro_AddCounter((CHARACTERGUID)_Character, (INTEGER)_Value)
+AND
+DB_Necro_Counter(_Character,_OldValue)
+AND
+IntegerSum(_OldValue,_Value, _New)
+THEN
+NOT DB_Necro_Counter(_Character,_OldValue);
+DB_Necro_Counter(_Character,_New);
+//END_REGION
+
+//REGION Skeletal Mages types
+IF
+CharacterStatusApplied(_Character, "NECRO_SKELETAL_MAGE_WATER",_)
+THEN
+//CharacterTransform(_Character, "2409c5b1-9836-4822-aac8-d82977b61ce9",1,0,1,1,1,1,0);
+DB_NOOP(1);
+//END_REGION
+
+
+//REGION golem limit
+IF
+CharacterStatusApplied(_Character, "NECRO_ACTIVE_GOLEM", _)
+AND
+CharacterGetOwner(_Character,_Owner)
+AND
+DB_NECRO_ACTIVE_GOLEM(_Other,_Owner)
+THEN
+CharacterDie(_Other,0,"Dot");
+NOT DB_NECRO_ACTIVE_GOLEM(_Other,_Owner);
+DB_NECRO_ACTIVE_GOLEM(_Character,_Owner);
+
+IF
+CharacterStatusApplied(_Character, "NECRO_ACTIVE_GOLEM", _)
+AND
+CharacterGetOwner(_Character,_Owner)
+THEN
+//CharacterMakeCompanion(_Character,_Owner);
+DB_NECRO_CONTROLED(_Character,_Owner);
+
+
+IF
+CharacterStatusApplied(_Character, "NECRO_ACTIVE_GOLEM", _)
+AND
+CharacterGetOwner(_Character,_Owner)
+AND
+NOT DB_NECRO_ACTIVE_GOLEM(_,_Owner)
+THEN
+DB_NECRO_ACTIVE_GOLEM(_Character,_Owner);
+
+
+IF
+CharacterDied(_Character)
+AND
+DB_NECRO_ACTIVE_GOLEM(_Character, _Owner)
+THEN
+NOT DB_NECRO_ACTIVE_GOLEM(_Character,_Owner);
+//END_REGION
+
+IF 
+DB_NECRO_CONTROLED(_Char,_Owner)
+THEN
+CharacterMakeCompanion(_Char,_Owner);
+
+
+IF
+SavegameLoaded(_,_,_,_)
+AND
+DB_NECRO_CONTROLED(_Character,_Owner)
+THEN
+PROC_add_to_party_again();
+
+PROC PROC_add_to_party_again()
+AND
+DB_NECRO_CONTROLED(_Character, _Owner)
+THEN
+CharacterRemoveFromPlayerCharacter(_Character,_Owner);
+CharacterAddToPlayerCharacter(_Character,_Owner);
+CharacterMakeCompanion(_Character,_Owner);
+CharacterFollowCharacter(_Character, _Owner);
+EXITSECTION
+
+ENDEXITSECTION
+ParentTargetEdge "Start"

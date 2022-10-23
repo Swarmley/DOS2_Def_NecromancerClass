@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="e4012e18-6a6b-4f40-aefa-c83b078c136c">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_SkillbookNecromancy" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Necromancy_BloodBubble" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_SkillbookNecromancy_substat_0" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_SkillbookNecromancy" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Necromancy_MosquitoSwarm" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_SkillbookNecromancy_substat_1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_SkillbookNecromancy" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Necromancy_BloatedCorpse" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_SkillbookNecromancy_substat_2" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_SkillbookNecromancy" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Necromancy_DecayingTouch" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_SkillbookNecromancy_substat_3" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_SkillbookNecromancy" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Necromancy_ShacklesOfPain" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_SkillbookNecromancy_substat_4" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_SkillbookNecromancy" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Necromancy_Infect" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_SkillbookNecromancy_substat_5" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_SkillbookNecromancy" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Necromancy_DeathWish" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_SkillbookNecromancy_substat_6" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_SkillbookNecromancy" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Necromancy_BlackShroud" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_SkillbookNecromancy_substat_7" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_SkillbookNecromancy" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Necromancy_DeathsDoor" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_SkillbookNecromancy_substat_8" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_SkillbookNecromancy" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Necromancy_BonePile" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_SkillbookNecromancy_substat_9" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_SkillbookNecromancy" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Necromancy_BoneCage" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_SkillbookNecromancy_substat_10" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_SkillbookNecromancy" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Necromancy_GraspOfTheStarved" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_SkillbookNecromancy_substat_11" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_SkillbookNecromancy" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Necromancy_SilencingStare" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_SkillbookNecromancy_substat_12" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_SkillbookNecromancy" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Necromancy_LastRites" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_SkillbookNecromancy_substat_13" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_SkillbookNecromancy" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Necromancy_NecromancerTotems" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_SkillbookNecromancy_substat" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Necromancy_CorpseSummon" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_SkillbookNecromancy" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_0" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Necromancy_SkeletalWarrior" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_SkillbookNecromancy" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Necromancy_SkeletalFireMage" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_SkillbookNecromancy" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_Skillbook_NecromancyTrainer" />
+        <field name="MinLevelDiff" type="IntegerStatObjectFieldDefinition" value="-30" />
+        <field name="MaxLevelDiff" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Necromancy_BloodBubble" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_Skillbook_NecromancyTrainer_substat_0" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_Skillbook_NecromancyTrainer" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Necromancy_ShacklesOfPain" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_Skillbook_NecromancyTrainer_substat_1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_Skillbook_NecromancyTrainer" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Necromancy_MosquitoSwarm" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_Skillbook_NecromancyTrainer_substat_2" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_Skillbook_NecromancyTrainer" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Necromancy_Infect" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_Skillbook_NecromancyTrainer_substat_3" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_Skillbook_NecromancyTrainer" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Necromancy_DecayingTouch" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_Skillbook_NecromancyTrainer_substat_4" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_Skillbook_NecromancyTrainer" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Necromancy_BloatedCorpse" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_Skillbook_NecromancyTrainer_substat_5" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_Skillbook_NecromancyTrainer" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Necromancy_DeathWish" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_Skillbook_NecromancyTrainer_substat_6" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_Skillbook_NecromancyTrainer" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Necromancy_BlackShroud" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_Skillbook_NecromancyTrainer_substat_7" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_Skillbook_NecromancyTrainer" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Necromancy_DeathsDoor" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_Skillbook_NecromancyTrainer_substat_8" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_Skillbook_NecromancyTrainer" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Necromancy_BonePile" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_Skillbook_NecromancyTrainer_substat_9" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_Skillbook_NecromancyTrainer" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Necromancy_BoneCage" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_Skillbook_NecromancyTrainer_substat_10" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_Skillbook_NecromancyTrainer" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Necromancy_GraspOfTheStarved" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_Skillbook_NecromancyTrainer_substat_11" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_Skillbook_NecromancyTrainer" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Necromancy_SilencingStare" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_Skillbook_NecromancyTrainer_substat_12" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_Skillbook_NecromancyTrainer" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Necromancy_LastRites" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_Skillbook_NecromancyTrainer_substat_13" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_Skillbook_NecromancyTrainer" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Necromancy_NecromancerTotems" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_Skillbook_NecromancyTrainer_substat" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Necromancy_SkeletalArcher" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_Skillbook_NecromancyTrainer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_9" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Necromancy_ConsumeSkeleton" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_Skillbook_NecromancyTrainer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_11" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Necromancy_NECRO_CONTROL" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_Skillbook_NecromancyTrainer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_6" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Necromancy_CorpseSummon" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_SkillbookNecromancy" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_5" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Necromancy_SkeletalWarrior" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_SkillbookNecromancy" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_4" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Necromancy_SkeletalFireMage" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_SkillbookNecromancy" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="FTJ_SkillbookNecromancy" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Necromancy_BloodBubble" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="FTJ_SkillbookNecromancy_substat_0" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="FTJ_SkillbookNecromancy" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Necromancy_MosquitoSwarm" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="FTJ_SkillbookNecromancy_substat_1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="FTJ_SkillbookNecromancy" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Necromancy_BloatedCorpse" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="FTJ_SkillbookNecromancy_substat_2" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="FTJ_SkillbookNecromancy" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Necromancy_DecayingTouch" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="FTJ_SkillbookNecromancy_substat_3" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="FTJ_SkillbookNecromancy" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Necromancy_ShacklesOfPain" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="FTJ_SkillbookNecromancy_substat_4" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="FTJ_SkillbookNecromancy" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Necromancy_Infect" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="FTJ_SkillbookNecromancy_substat_5" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="FTJ_SkillbookNecromancy" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Necromancy_DeathWish" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="FTJ_SkillbookNecromancy_substat" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Necromancy_SkeletalArcher" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="FTJ_SkillbookNecromancy" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_8" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Necromancy_ConsumeSkeleton" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="FTJ_SkillbookNecromancy" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_10" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Necromancy_NECRO_CONTROL" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="FTJ_SkillbookNecromancy" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_2" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Necromancy_CorpseSummon" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_SkillbookNecromancy" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_3" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Necromancy_SkeletalWarrior" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_SkillbookNecromancy" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_7" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Necromancy_SkeletalFireMage" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_SkillbookNecromancy" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_16" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Necromancy_Necro_TouchOfTheGrave" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_SkillbookNecromancy" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="NECRO_TalkingSkull" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Necromancy_SkeletalArcher" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="NECRO_TalkingSkull_substat" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Necromancy_ConsumeSkeleton" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="NECRO_TalkingSkull" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_12" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Necromancy_NECRO_CONTROL" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="NECRO_TalkingSkull" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_13" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Necromancy_CorpseSummon" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="NECRO_TalkingSkull" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_14" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Necromancy_SkeletalWarrior" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="NECRO_TalkingSkull" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_15" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Necromancy_SkeletalFireMage" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="NECRO_TalkingSkull" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

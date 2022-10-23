@@ -1,0 +1,54 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+DB_NECRO_BoneSaw_TagToBodyType("DWARF","ITEMGUID_LOOT_Bodyparts_B_dc3af1bd-cbea-4042-a663-9be2814f105c");
+DB_NECRO_BoneSaw_TagToBodyType("ELF","ITEMGUID_LOOT_Bodyparts_E_9916a86e-1367-4627-afbc-62975cc30ed7");
+DB_NECRO_BoneSaw_TagToBodyType("HUMAN","ITEMGUID_LOOT_Bodyparts_A_a32e556f-8c03-48ca-bd29-b78067fd31da");
+DB_NECRO_BoneSaw_TagToBodyType("LIZARD","ITEMGUID_LOOT_Bodyparts_Lizards_Leg_3ec6137e-c2a9-4b38-b7dd-743724a43031");
+
+KBSECTION
+//REGION Meat Cleave
+IF
+CharacterUsedSkillOnTarget(_Player,_Target,"Target_MeatCleave",_,_)
+AND
+DB_NECRO_BoneSaw_TagToBodyType(_Tag,_BodyType)
+AND
+IsTagged(_Target,_Tag,1)
+THEN
+ItemTemplateAddTo(_BodyType,_Player,1);
+//END_REGION
+//REGION //Corpse Summon
+
+IF
+CharacterUsedSkillAtPosition((CHARACTERGUID)_Char,(REAL)_X,(REAL)_Y,(REAL)_Z,"Target_Necro_CorpseSummon",_,_)
+AND
+CharacterCreateAtPosition(_X,_Y,_Z,"CHARACTERGUID_Creatures_Corpse_Summon_88b03308-510a-4123-837c-74d6831aaf2b",0,(CHARACTERGUID)_Cr)
+THEN
+DB_NOOP(1);
+//END_REGION
+
+//REGION //Override Consume
+IF
+CharacterStatusApplied(_Character,"NECRO_ACTIVE_FLESH_GOLEM",_)
+AND
+CharacterHasSkill(_Character,"Target_ConsumeSkeleton",_)
+AND
+NOT DB_Necro_ConsumeRet(_Character)
+THEN
+//CharacterRemoveSkill(_Character,"Target_ConsumeSkeleton");
+DB_Necro_ConsumeRet(_Character);
+
+IF
+CharacterStatusRemoved(_Character,"NECRO_ACTIVE_FLESH_GOLEM",_)
+AND
+CharacterHasSkill(_Character,"Target_ConsumeSkeleton",0)
+AND
+DB_Necro_ConsumeRet(_Character)
+THEN
+//CharacterAddSkill(_Character,"Target_ConsumeSkeleton",1);
+NOT DB_Necro_ConsumeRet(_Character);
+//END_REGION
+EXITSECTION
+
+ENDEXITSECTION
+ParentTargetEdge "Start"

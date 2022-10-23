@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="e078e210-b9ba-48e5-afe3-c5eb91ba8545">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SKILLBOOK_Necromancy_SkeletalWarrior" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Skillbooks" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="a445b434-7490-4822-a175-064e504649f6" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="ActPart" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="120" />
+        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="SkillbookNecromancy" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="Necromancy 1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="SkillbookNecromancyStarter" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="InventoryTab" type="EnumerationStatObjectFieldDefinition" value="3" enumeration_type_name="InventoryTabs" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="LOOT_TrustyCleaver" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="QUEST_FaceRipper" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="edd69ef4-fb64-4a09-85f2-381c229ae1d3" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="ActPart" />
+        <field name="UseAPCost" type="IntegerStatObjectFieldDefinition" value="2" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Weight" type="IntegerStatObjectFieldDefinition" value="500" />
+        <field name="InventoryTab" type="EnumerationStatObjectFieldDefinition" value="6" enumeration_type_name="InventoryTabs" />
+        <field name="Unique" type="IntegerStatObjectFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SCROLL_Summon_FleshGolem" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Scrolls" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="de212e79-3a40-4788-84ad-a3f13e52986d" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="ActPart" />
+        <field name="UseAPCost" type="IntegerStatObjectFieldDefinition" value="2" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="60" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="Necromancy 2" />
+        <field name="InventoryTab" type="EnumerationStatObjectFieldDefinition" value="3" enumeration_type_name="InventoryTabs" />
+        <field name="Weight" type="IntegerStatObjectFieldDefinition" value="500" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="LOOT_BodyPart_A" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Generics" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="a32e556f-8c03-48ca-bd29-b78067fd31da" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="ActPart" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Weight" type="IntegerStatObjectFieldDefinition" value="500" />
+        <field name="InventoryTab" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="InventoryTabs" />
+        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="BodyPart" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="LOOT_BodyPart_B" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Generics" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="dc3af1bd-cbea-4042-a663-9be2814f105c" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="ActPart" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Weight" type="IntegerStatObjectFieldDefinition" value="500" />
+        <field name="InventoryTab" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="InventoryTabs" />
+        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="BodyPart" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="LOOT_BodyPart_C" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Generics" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="a3c85ced-1b60-4e91-930b-2d76109791b5" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="ActPart" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Weight" type="IntegerStatObjectFieldDefinition" value="500" />
+        <field name="InventoryTab" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="InventoryTabs" />
+        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="BodyPart" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="LOOT_BodyPart_D" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Generics" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="7a0beb49-ab72-4b9a-ba52-657d1e1e0a06" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="ActPart" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Weight" type="IntegerStatObjectFieldDefinition" value="500" />
+        <field name="InventoryTab" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="InventoryTabs" />
+        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="BodyPart" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="LOOT_BodyPart_E" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Generics" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="9916a86e-1367-4627-afbc-62975cc30ed7" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="ActPart" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Weight" type="IntegerStatObjectFieldDefinition" value="500" />
+        <field name="InventoryTab" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="InventoryTabs" />
+        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="BodyPart" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="LOOT_BodyPart_F" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Generics" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="64488fea-e1a5-422a-951b-849974cde59e" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="ActPart" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Weight" type="IntegerStatObjectFieldDefinition" value="500" />
+        <field name="InventoryTab" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="InventoryTabs" />
+        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="BodyPart" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="LOOT_BodyPart_G" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Generics" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="982bdb9f-0843-4e5f-a471-e1b0e9e0c7a5" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="ActPart" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Weight" type="IntegerStatObjectFieldDefinition" value="500" />
+        <field name="InventoryTab" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="InventoryTabs" />
+        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="BodyPart" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="LOOT_BodyPart_H" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Generics" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="5f1544ef-eb35-467a-bcee-1b4be9696389" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="ActPart" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Weight" type="IntegerStatObjectFieldDefinition" value="500" />
+        <field name="InventoryTab" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="InventoryTabs" />
+        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="BodyPart" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SKILLBOOK_Necromancy_SkeletalFireMage" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Skillbooks" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="450d6407-be40-4809-aaa7-c53c7f19dbe2" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="ActPart" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="120" />
+        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="SkillbookNecromancy" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="Necromancy 3" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="SkillbookNecromancyStarter" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="InventoryTab" type="EnumerationStatObjectFieldDefinition" value="3" enumeration_type_name="InventoryTabs" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SKILLBOOK_Necromancy_CorpseSummon" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Skillbooks" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="aa0f7185-ef9e-4e3f-a383-699e0ff9ccb5" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="ActPart" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="120" />
+        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="SkillbookNecromancy" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="Necromancy 4" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="SkillbookNecromancyStarter" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="InventoryTab" type="EnumerationStatObjectFieldDefinition" value="3" enumeration_type_name="InventoryTabs" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SKILLBOOK_Necromancy_SkeletalArcher" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Skillbooks" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="7ecddcca-9e1d-4e1b-bacd-e6c1d3773d02" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="ActPart" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="120" />
+        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="SkillbookNecromancy" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="Necromancy 2" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="SkillbookNecromancyStarter" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="InventoryTab" type="EnumerationStatObjectFieldDefinition" value="3" enumeration_type_name="InventoryTabs" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SKILLBOOK_Necromancy_ConsumeSkeleton" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Skillbooks" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="9ace899a-ce90-457c-9a8a-592cc8c69c90" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="ActPart" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="120" />
+        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="SkillbookNecromancy" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="Necromancy 1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="SkillbookNecromancyStarter" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="InventoryTab" type="EnumerationStatObjectFieldDefinition" value="3" enumeration_type_name="InventoryTabs" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SCROLL_Summon_BoneGolem" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Scrolls" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="f462397b-b79c-4d10-87aa-ac8af07c7b1f" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="ActPart" />
+        <field name="UseAPCost" type="IntegerStatObjectFieldDefinition" value="2" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="60" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="Necromancy 3" />
+        <field name="InventoryTab" type="EnumerationStatObjectFieldDefinition" value="3" enumeration_type_name="InventoryTabs" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SKILLBOOK_Necromancy_NECRO_CONTROL" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Skillbooks" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="4c45afc9-68f8-4f7e-9186-2cff3d04639d" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="SkillbookNecromancy" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="Necromancy 1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="SkillbookNecromancyStarter" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="InventoryTab" type="EnumerationStatObjectFieldDefinition" value="3" enumeration_type_name="InventoryTabs" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SKILLBOOK_Necromancy_Necro_TouchOfTheGrave" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Skillbooks" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="3829b4de-cd29-4a99-9fb2-84e0475b3b15" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="ActPart" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="120" />
+        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="SkillbookNecromancy" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="Necromancy 4" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="SkillbookNecromancyStarter" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="InventoryTab" type="EnumerationStatObjectFieldDefinition" value="3" enumeration_type_name="InventoryTabs" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

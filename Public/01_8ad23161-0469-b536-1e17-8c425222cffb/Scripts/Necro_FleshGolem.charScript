@@ -1,0 +1,52 @@
+#INCLUDE Necro_Golem
+INIT
+	USING Necro_Golem
+	CHARACTER:__Me
+
+
+EVENTS
+
+EVENT apply_active_golem
+VARS
+CHARACTER: _Owner
+ON
+OnTimer(Active_golem)
+ACTIONS
+IF "c1&(!c2)"
+CharacterGetOwner(_Owner,__Me)
+CharacterHasStatus(_Owner,"NECRO_ACTIVE_FLESH_GOLEM")
+THEN
+CharacterApplyStatus(_Owner,"NECRO_ACTIVE_FLESH_GOLEM",-1,1)
+ENDIF
+CharacterApplyStatus(__Me, "NECRO_ACTIVE_GOLEM", -1)
+
+EVENT onDeath
+VARS
+CHARACTER: _Owner
+ON
+OnDie(__Me,_,_,_)
+ACTIONS
+IF "c1&c2"
+CharacterGetOwner(_Owner,__Me)
+CharacterHasStatus(_Owner,"NECRO_ACTIVE_FLESH_GOLEM")
+THEN
+CharacterRemoveStatus(_Owner,"NECRO_ACTIVE_FLESH_GOLEM")
+ENDIF
+
+EVENT Deconstruct
+VARS
+	CHARACTER: _Owner
+ON
+	OnCharacterStatusApplied(__Me,"NECRO_DECONSTRUCT")
+ACTIONS
+IF "c1"
+	CharacterGetOwner(_Owner,__Me)
+THEN
+	IF "!c1"
+			//IsTagged(_Golem, "NECRO_BONEGOLEM")
+			CharacterHasStatus(__Me,"DYING")
+		THEN
+			CharacterApplyStatus(__Me,"DYING", -1)
+			CharacterAddToInventory(_Owner,"SCROLL_Summon_FleshGolem",1)
+	ENDIF
+ENDIF

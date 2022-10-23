@@ -1,0 +1,6 @@
+new CraftingPreviewData "BodyPart"
+type "ObjectCategories"
+data "Category" "BodyPart"
+data "Icon" "Item_LOOT_BodyPart_D"
+data "Tooltip" "Body part"
+

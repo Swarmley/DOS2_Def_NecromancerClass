@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="a1fa1d2f-c335-4902-898c-4228c3c07d52">
+  <stat_objects>
+    <stat_object index="0" is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="_Summon_Mage_Fire" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Wands" />
+        <field name="Damage Type" type="EnumerationStatObjectFieldDefinition" value="6" enumeration_type_name="Damage Type" />
+        <field name="Projectile" type="StringStatObjectFieldDefinition" value="4e826aea-e44c-45b7-b220-5f4562e33227" />
+        <field name="ExtraProperties" type="StringStatObjectFieldDefinition" value="Ignite;" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="Wands_1H" />
+        <field name="ModifierType" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ModifierType" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="Intelligence 0" />
+      </fields>
+    </stat_object>
+    <stat_object index="1" is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WPN_Necromancer_Preview_Staff" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Staffs" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="WPN_UNIQUE_AtaraxianScythe" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="DamageBoost" type="IntegerStatObjectFieldDefinition" value="20" />
+        <field name="CriticalChance" type="IntegerStatObjectFieldDefinition" value="20" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="800" />
+        <field name="StrengthBoost" type="EnumerationStatObjectFieldDefinition" value="13" enumeration_type_name="Penalty Qualifier" />
+        <field name="IntelligenceBoost" type="EnumerationStatObjectFieldDefinition" value="13" enumeration_type_name="Penalty Qualifier" />
+        <field name="Necromancy" type="IntegerStatObjectFieldDefinition" value="2" />
+        <field name="AccuracyBoost" type="IntegerStatObjectFieldDefinition" value="20" />
+        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="TwoHandedAxe,CuttingTool" />
+        <field name="Skills" type="StringStatObjectFieldDefinition" value="Shout_Quest_PromiseBreak" />
+        <field name="Flags" type="StringStatObjectFieldDefinition" value="Unrepairable" />
+        <field name="Unique" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="Intelligence 0" />
+      </fields>
+    </stat_object>
+    <stat_object index="2" is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WPN_Common_Mace_1H_A" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Clubs" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="WPN_Common_Mace_1H_A" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="ActPart" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="2" />
+        <field name="Weight" type="IntegerStatObjectFieldDefinition" value="1000" />
+        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="Club,Hammer" />
+      </fields>
+    </stat_object>
+    <stat_object index="3" is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="_FTJ_Magister_Melee_Sword" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_NpcSwords" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="WPN_Sword_1H_Human_01" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="HumansCommon" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

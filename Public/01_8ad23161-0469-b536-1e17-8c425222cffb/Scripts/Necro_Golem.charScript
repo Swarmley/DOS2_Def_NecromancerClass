@@ -1,0 +1,77 @@
+#INCLUDE Base
+INIT
+	USING Base
+	CHARACTER:__Me
+	INT:%IsInCombat
+BEHAVIOUR
+
+REACTION NECRO_FollowOwner, 10
+USAGE PEACE
+VARS
+	CHARACTER:_Owner
+	FLOAT:_Dist
+ACTIONS
+	IF "c1"
+		CharacterGetOwner(_Owner,__Me)
+	THEN
+		IF "c1&c2"
+			GetDistance(_Dist, __Me, _Owner)
+			IsGreaterThen(_Dist, 30)
+		THEN
+			TeleportTo(__Me,_Owner)
+		ENDIF
+	ENDIF
+INTERRUPT
+ACTIONS
+	Reset()
+	IF "c1&c2"
+		CharacterGetOwner(_Owner,__Me)
+		IsEqual(%IsInCombat, 0)
+	THEN
+		TeleportTo(__Me,_Owner)
+	ENDIF
+
+
+EVENTS
+//
+EVENT Init
+ON
+	OnInit()
+VARS
+ACTIONS
+StartTimer("Active_golem",0.8,0)
+StartTimer("NECRO_Update", 0.5, -1)
+
+
+
+
+EVENT NECRO_Update
+ON
+	OnTimer("NECRO_Update")
+VARS
+	CHARACTER:_Owner
+	FLOAT:_DistanceToOwner
+ACTIONS
+	// Teleport if distance too big
+	IF "c1"
+		CharacterGetOwner(_Owner,__Me)
+	THEN
+		IF "c1&c2"
+			GetDistance(_DistanceToOwner, __Me, _Owner)
+			IsGreaterThen(_DistanceToOwner, 20)
+		THEN
+			Interrupt("NECRO_FollowOwner")
+		ENDIF
+	ENDIF
+EVENT OnStartCombat
+ON
+	OnEnteredCombat(__Me, _)
+ACTIONS
+	Set(%IsInCombat, 1)
+	
+EVENT OnEndCombat
+ON
+	OnLeftCombat(__Me, _)
+ACTIONS
+	Set(%IsInCombat, 0)
+

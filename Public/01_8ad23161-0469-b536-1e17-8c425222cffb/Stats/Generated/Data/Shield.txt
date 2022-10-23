@@ -1,0 +1,9 @@
+new entry "WPN_SkeletonShield"
+type "Shield"
+using "_Shields"
+data "ItemGroup" "WPN_Shield_Paladin_01"
+data "Act part" "0"
+data "Value" "10"
+data "Weight" "10"
+data "InventoryTab" "Hidden"
+

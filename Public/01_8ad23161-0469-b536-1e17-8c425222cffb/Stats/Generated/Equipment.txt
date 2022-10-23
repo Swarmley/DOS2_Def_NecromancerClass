@@ -1,0 +1,20 @@
+new equipment "Class_NECRO_Necromancer"
+add equipmentgroup
+add equipment entry "ARM_Witch_Helmet"
+add equipmentgroup
+add equipment entry "ARM_Witch_UpperBody"
+add equipmentgroup
+add equipment entry "ARM_Witch_LowerBody"
+add equipmentgroup
+add equipment entry "ARM_Witch_Gloves"
+add equipmentgroup
+add equipment entry "ARM_Witch_Boots"
+add equipmentgroup
+add equipment entry "WPN_Witch_Dagger_Humans"
+
+new equipment "Necro_Skeletal_Warrior"
+add equipmentgroup
+add equipment entry "WPN_Sword_1H"
+add equipmentgroup
+add equipment entry "WPN_CraftedShield"
+

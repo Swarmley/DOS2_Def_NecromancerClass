@@ -1,0 +1,36 @@
+
+EVENTS
+//toggle spells
+//Applies/removes NECRO_CONTROL to caster
+
+
+// Gain spells
+EVENT NecroControlGain
+VARS
+	CHARACTER: _Character
+ON
+	OnSkillCast(_Character,"Target_SkeletalWarrior")
+	OnSkillCast (_Character,"Target_SkeletalArcher")
+	OnSkillCast (_Character,"Target_SkeletalFireMage")
+ACTIONS
+IF "!c1"
+	CharacterHasSkill(_Character, "Shout_NECRO_CONTROL")
+THEN
+	CharacterAddSkill(_Character,"Shout_NECRO_CONTROL")
+ENDIF
+// End of gain spells
+
+
+EVENT touchOfTheGrave_undeadImmunity
+VARS
+CHARACTER: _target
+ON
+OnCharacterStatusApplied(_target,"TOUCH_OF_GRAVE")
+ACTIONS
+IF "!c1"
+	IsTagged(_target, UNDEAD)
+	THEN
+	CharacterApplyStatus(_target,"TOUCH_OF_GRAVE_DMG",1,1)
+	ENDIF
+	
+	

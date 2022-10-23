@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="81d21913-ef1d-4fd8-bc01-1dcee5d3e4eb">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="FleshGolem" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="Ability" type="EnumerationStatObjectFieldDefinition" value="9" enumeration_type_name="SkillAbility" />
+        <field name="ActionPoints" type="IntegerStatObjectFieldDefinition" value="3" />
+        <field name="Cooldown" type="IntegerStatObjectFieldDefinition" value="5" />
+        <field name="Lifetime" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="SummonLevel" type="IntegerStatObjectFieldDefinition" value="-1" />
+        <field name="Template" type="StringStatObjectFieldDefinition" value="644200b8-e162-46d1-af5c-c026a27f4c56" />
+        <field name="TargetRadius" type="IntegerStatObjectFieldDefinition" value="15" />
+        <field name="SummonCount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Raise a Flesh Golem" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Flesh golems are vicious necromantic creations which can heal themselfs and their master by their ruthless attacks. If needed they can also sacrifice themselfs to heal their master." />
+        <field name="FXScale" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="PrepareAnimationInit" type="StringStatObjectFieldDefinition" value="skill_prepare_totem_01_start" />
+        <field name="PrepareAnimationLoop" type="StringStatObjectFieldDefinition" value="skill_prepare_totem_01_loop" />
+        <field name="PrepareEffect" type="StringStatObjectFieldDefinition" value=";RS3_FX_Skills_Voodoo_Prepare_Water_Blood_Root_01,KeepRot;RS3_FX_Skills_Voodoo_Prepare_Voodoo_Blood_Root_02,KeepRot" />
+        <field name="CastAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_summon_totem_01_cast" />
+        <field name="CastTextEvent" type="StringStatObjectFieldDefinition" value="cast" />
+        <field name="CastEffectTextEvent" type="StringStatObjectFieldDefinition" value="cast" />
+        <field name="TargetCastEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_GP_ScriptedEvent_VoidwokenAncestorTree_PrepareBlood_01" />
+        <field name="AiCalculationSkillOverride" type="StringStatObjectFieldDefinition" value="Target_DummyTargetSkill" />
+        <field name="Tier" type="EnumerationStatObjectFieldDefinition" value="2" enumeration_type_name="SkillTier" />
+        <field name="Totem" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="Item_CONT_Corpse_A" />
+        <field name="CastEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Voodoo_Blood_Prepare_Ground_01:KeepRot;;RS3_FX_Skills_Voodoo_Cast_Target_Voodoo_Blood_Root_01;RS3_FX_Skills_Voodoo_Cast_Aoe_Voodoo_Blood_Hand_01:Dummy_R_HandFX,Dummy_L_HandFX" />
+        <field name="TargetEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_GP_ScriptedEvent_VoidwokenAncestorTree_PrepareBlood_01" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="Necromancy 2" />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="2" />
+        <field name="SkillProperties" type="StringStatObjectFieldDefinition" value="Summon,1d3179ee-7013-48d7-b6b1-10731dcc514e,-1,totem,Target_DummyTargetSkill" />
+        <field name="Magic Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="IsEnemySkill" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="BoneGolem" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="Ability" type="EnumerationStatObjectFieldDefinition" value="9" enumeration_type_name="SkillAbility" />
+        <field name="ActionPoints" type="IntegerStatObjectFieldDefinition" value="3" />
+        <field name="Cooldown" type="IntegerStatObjectFieldDefinition" value="5" />
+        <field name="Lifetime" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="SummonLevel" type="IntegerStatObjectFieldDefinition" value="-1" />
+        <field name="Template" type="StringStatObjectFieldDefinition" value="5f901e4a-2ad3-435b-b36c-cb96e8585615" />
+        <field name="TargetRadius" type="IntegerStatObjectFieldDefinition" value="15" />
+        <field name="SummonCount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Raise a Bone Golem" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Bone golems, tough skeletal abominations, might be slow and boneheaded, but they are excelent bodyguards for their dark Masters" />
+        <field name="FXScale" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="PrepareAnimationInit" type="StringStatObjectFieldDefinition" value="skill_prepare_totem_01_start" />
+        <field name="PrepareAnimationLoop" type="StringStatObjectFieldDefinition" value="skill_prepare_totem_01_loop" />
+        <field name="PrepareEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Items_Attachments_Cadaver_Bone_Decal_Huge_01,KeepRot;RS3_FX_Skills_Voodoo_Prepare_Totem_GraspStarved_Root_01,KeepRot;RS3_FX_Skills_Voodoo_Prepare_Totem_BonePile_Root_01,KeepRot,Detach:Dummy_Root;RS3_FX_Skills_Voodoo_Prepare_Totem_Hand_01:Dummy_L_HandFX,Dummy_R_HandFX" />
+        <field name="CastAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_summon_totem_01_cast" />
+        <field name="CastTextEvent" type="StringStatObjectFieldDefinition" value="cast" />
+        <field name="CastEffectTextEvent" type="StringStatObjectFieldDefinition" value="cast" />
+        <field name="TargetCastEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Totem_Impact_Summon_Decay_02" />
+        <field name="AiCalculationSkillOverride" type="StringStatObjectFieldDefinition" value="Target_DummyTargetSkill" />
+        <field name="Tier" type="EnumerationStatObjectFieldDefinition" value="3" enumeration_type_name="SkillTier" />
+        <field name="Totem" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="Item_CONT_Corpse_A" />
+        <field name="CastEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Voodoo_Cast_Target_Voodoo_Blood_Root_01;RS3_FX_Skills_Voodoo_Cast_Aoe_Voodoo_Blood_Hand_01:Dummy_R_HandFX,Dummy_L_HandFX" />
+        <field name="TargetEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Voodoo_Totem_Target_BonePile_01" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="Necromancy 3" />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="2" />
+        <field name="SkillProperties" type="StringStatObjectFieldDefinition" value="Summon,be11f186-40fe-415f-98aa-6f0afbb6a7e3,-1,totem,Target_DummyTargetSkill" />
+        <field name="Magic Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="IsEnemySkill" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

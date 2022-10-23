@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="e988a674-28fe-49d2-a6ce-c5c1e0141f4c">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SkeletalWarrior" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="Ability" type="EnumerationStatObjectFieldDefinition" value="9" enumeration_type_name="SkillAbility" />
+        <field name="Tier" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="SkillTier" />
+        <field name="ActionPoints" type="IntegerStatObjectFieldDefinition" value="2" />
+        <field name="Cooldown" type="IntegerStatObjectFieldDefinition" value="2" />
+        <field name="SkillProperties" type="StringStatObjectFieldDefinition" value="Summon,2206b540-c16b-4011-83f0-0aef4be53db0,10,totem,Target_DummyTargetSkill;EXPLODE,100,1" />
+        <field name="TargetRadius" type="IntegerStatObjectFieldDefinition" value="13" />
+        <field name="CanTargetCharacters" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="CanTargetItems" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="CanTargetTerrain" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Magic Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="TargetConditions" type="StringStatObjectFieldDefinition" value="Dead;!Item;CanExplode" />
+        <field name="UseCharacterStats" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="UseWeaponDamage" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="UseWeaponProperties" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="Item_LOOT_Skull_A" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value=" Raise Skeletal Warrior " />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Target an intact corpse to raise a Skletal Warrior that fight's for you. " />
+        <field name="FXScale" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="PrepareAnimationInit" type="StringStatObjectFieldDefinition" value="skill_prepare_voodoo_01_start" />
+        <field name="PrepareAnimationLoop" type="StringStatObjectFieldDefinition" value="skill_prepare_voodoo_01_loop" />
+        <field name="PrepareEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Voodoo_Prepare_Totem_BonePile_Root_01,KeepRot,Detach:Dummy_Root;RS3_FX_Soul_Prepare_Soul_LastRites_Hand_01:Dummy_R_Hand;RS3_FX_Soul_Prepare_Soul_LastRites_Hand_02:Dummy_R_Hand,Dummy_L_Hand;RS3_FX_Soul_Prepare_Soul_LastRites_Hand_Loop_01:Dummy_R_Hand,Dummy_L_Hand" />
+        <field name="CastAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_aoe_voodoo_01_cast" />
+        <field name="CastSelfAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_aoe_voodoo_01_cast" />
+        <field name="CastTextEvent" type="StringStatObjectFieldDefinition" value="cast" />
+        <field name="CastEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Soul_Prepare_Soul_LastRites_Hand_Loop_01:Dummy_R_Hand,Dummy_L_Hand;" />
+        <field name="TargetEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Soul_LivingEdge_Impact_01:root:cast;RS3_FX_Skills_Voodoo_Totem_Target_BonePile_01:root:cast" />
+        <field name="PreviewEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Voodoo_Totem_Target_BonePile_01" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="Necromancy 1, Summoning 1" />
+        <field name="TargetGroundEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Soul_Cast_Beam_Soul_Hand_02,FaceSource:Dummy_BodyFX:cast;RS3_FX_Skills_Soul_Cast_Beam_Soul_Root_02,FaceSource" />
+        <field name="IsEnemySkill" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="MemorizationRequirements" type="StringStatObjectFieldDefinition" value="Necromancy 1, Summoning 1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="MeatCleave" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="SourceVampirism" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="IsEnemySkill" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="SkillProperties" type="StringStatObjectFieldDefinition" value="EXPLODE,100,1" />
+        <field name="TargetRadius" type="IntegerStatObjectFieldDefinition" value="4" />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Magic Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="TargetConditions" type="StringStatObjectFieldDefinition" value="!Player&amp;CanExplode&amp;Dead&amp;(Tagged:HUMAN|Tagged:ELF|Tagged:LIZARD|Tagged:DWARF)&amp;!Tagged:UNDEAD" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="Item_TOOL_CleaverAxe_A_B" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Bone Saw" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Procure a bloody body part that can be used for crafting. Combine with Body part to gain a bone." />
+        <field name="PrepareEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Voodoo_Prepare_Voodoo_Blood_Hand_01:Dummy_R_HandFX,Dummy_L_HandFX" />
+        <field name="CastAnimation" type="StringStatObjectFieldDefinition" value="Use_Mining_01" />
+        <field name="CastSelfAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_aoe_voodoo_01_cast" />
+        <field name="CastTextEvent" type="StringStatObjectFieldDefinition" value="cast" />
+        <field name="CastEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Voodoo_Cast_Target_Voodoo_Blood_Root_01;RS3_FX_Skills_Voodoo_Cast_Aoe_Voodoo_Blood_Hand_01:Dummy_R_HandFX,Dummy_L_HandFX" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="Necromancy 1" />
+        <field name="FXScale" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="Tier" type="EnumerationStatObjectFieldDefinition" value="2" enumeration_type_name="SkillTier" />
+        <field name="CanTargetCharacters" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="CanTargetItems" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="CanTargetTerrain" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Ability" type="EnumerationStatObjectFieldDefinition" value="9" enumeration_type_name="SkillAbility" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="BloodPact" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="Ability" type="EnumerationStatObjectFieldDefinition" value="9" enumeration_type_name="SkillAbility" />
+        <field name="Tier" type="EnumerationStatObjectFieldDefinition" value="2" enumeration_type_name="SkillTier" />
+        <field name="ActionPoints" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Cooldown" type="IntegerStatObjectFieldDefinition" value="3" />
+        <field name="SkillProperties" type="StringStatObjectFieldDefinition" value="HEAL_SHARING,100,3" />
+        <field name="TargetRadius" type="IntegerStatObjectFieldDefinition" value="13" />
+        <field name="AddWeaponRange" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="CanTargetCharacters" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="CanTargetItems" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="CanTargetTerrain" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Magic Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="TargetConditions" type="StringStatObjectFieldDefinition" value="Character;NonSelf;!Tagged:SUMMON_SKELETON;" />
+        <field name="UseCharacterStats" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="UseWeaponDamage" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="UseWeaponProperties" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="Skill_Summoning_SoulMate" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Blood Pact" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Target character receives half of healing and Armour restoration that you receive. Clears Frozen, Stunned, Knocked Down and Petrified." />
+        <field name="FXScale" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="PrepareAnimationInit" type="StringStatObjectFieldDefinition" value="skill_prepare_voodoo_01_start" />
+        <field name="PrepareAnimationLoop" type="StringStatObjectFieldDefinition" value="skill_prepare_voodoo_01_loop" />
+        <field name="PrepareEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Voodoo_Prepare_Voodoo_Blood_Root_01,KeepRot,Detach;RS3_FX_Skills_Voodoo_Prepare_Voodoo_Blood_Hand_01:Dummy_R_HandFX,Dummy_L_HandFX" />
+        <field name="CastAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_target_voodoo_01_cast" />
+        <field name="CastSelfAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_aoe_voodoo_01_cast" />
+        <field name="CastTextEvent" type="StringStatObjectFieldDefinition" value="cast" />
+        <field name="CastEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Voodoo_Cast_Target_Voodoo_Blood_Root_01;RS3_FX_Skills_Voodoo_Cast_Aoe_Voodoo_Blood_Hand_01:Dummy_R_HandFX,Dummy_L_HandFX" />
+        <field name="TargetEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Voodoo_Blood_Swarm_Target_01:root:cast" />
+        <field name="TargetGroundEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Voodoo_Blood_Swarm_Target_01:root:cast" />
+        <field name="CleanseStatuses" type="StringStatObjectFieldDefinition" value="FROZEN;STUNNED;PETRIFIED;KNOCKED_DOWN" />
+        <field name="StatusClearChance" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="IsEnemySkill" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SkeletalArcher" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="Ability" type="EnumerationStatObjectFieldDefinition" value="9" enumeration_type_name="SkillAbility" />
+        <field name="Tier" type="EnumerationStatObjectFieldDefinition" value="2" enumeration_type_name="SkillTier" />
+        <field name="ActionPoints" type="IntegerStatObjectFieldDefinition" value="3" />
+        <field name="Cooldown" type="IntegerStatObjectFieldDefinition" value="2" />
+        <field name="SkillProperties" type="StringStatObjectFieldDefinition" value="Summon,4bd8c82c-293f-49a4-87ef-1ea318fb5aee,10,totem,Target_DummyTargetSkill;EXPLODE,100,1" />
+        <field name="TargetRadius" type="IntegerStatObjectFieldDefinition" value="13" />
+        <field name="CanTargetCharacters" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="CanTargetItems" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="CanTargetTerrain" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Magic Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="TargetConditions" type="StringStatObjectFieldDefinition" value="Dead;!Item;CanExplode" />
+        <field name="UseCharacterStats" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="UseWeaponDamage" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="UseWeaponProperties" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="Item_LOOT_AncientSkull_A" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Raise Skeletal Archer " />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Target an intact corpse to raise a Skletal Archer that fight's for you. " />
+        <field name="FXScale" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="PrepareAnimationInit" type="StringStatObjectFieldDefinition" value="skill_prepare_voodoo_01_start" />
+        <field name="PrepareAnimationLoop" type="StringStatObjectFieldDefinition" value="skill_prepare_voodoo_01_loop" />
+        <field name="PrepareEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Voodoo_Prepare_Totem_BonePile_Root_01,KeepRot,Detach:Dummy_Root;RS3_FX_Soul_Prepare_Soul_LastRites_Hand_01:Dummy_R_Hand;RS3_FX_Soul_Prepare_Soul_LastRites_Hand_02:Dummy_R_Hand,Dummy_L_Hand;RS3_FX_Soul_Prepare_Soul_LastRites_Hand_Loop_01:Dummy_R_Hand,Dummy_L_Hand" />
+        <field name="CastAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_aoe_voodoo_01_cast" />
+        <field name="CastSelfAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_aoe_voodoo_01_cast" />
+        <field name="CastTextEvent" type="StringStatObjectFieldDefinition" value="cast" />
+        <field name="CastEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Soul_Prepare_Soul_LastRites_Hand_Loop_01:Dummy_R_Hand,Dummy_L_Hand;" />
+        <field name="TargetEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Soul_LivingEdge_Impact_01:root:cast;RS3_FX_Skills_Voodoo_Totem_Target_BonePile_01:root:cast" />
+        <field name="PreviewEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Voodoo_Totem_Target_BonePile_01;" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="Necromancy 1, Summoning 1" />
+        <field name="TargetGroundEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Soul_Cast_Beam_Soul_Hand_02,FaceSource:Dummy_BodyFX:cast;RS3_FX_Skills_Soul_Cast_Beam_Soul_Root_02,FaceSource;" />
+        <field name="IsEnemySkill" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="MemorizationRequirements" type="StringStatObjectFieldDefinition" value="Necromancy 3, Summoning 3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SkeletalFireMage" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="Ability" type="EnumerationStatObjectFieldDefinition" value="9" enumeration_type_name="SkillAbility" />
+        <field name="Tier" type="EnumerationStatObjectFieldDefinition" value="3" enumeration_type_name="SkillTier" />
+        <field name="ActionPoints" type="IntegerStatObjectFieldDefinition" value="3" />
+        <field name="Cooldown" type="IntegerStatObjectFieldDefinition" value="3" />
+        <field name="SkillProperties" type="StringStatObjectFieldDefinition" value="Summon,5458c26f-6201-4c72-96c4-bb6cc7b6ab20,10,totem,Target_DummyTargetSkill;EXPLODE,100,1" />
+        <field name="TargetRadius" type="IntegerStatObjectFieldDefinition" value="13" />
+        <field name="CanTargetCharacters" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="CanTargetItems" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="CanTargetTerrain" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Magic Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="TargetConditions" type="StringStatObjectFieldDefinition" value="Dead;!Item;CanExplode" />
+        <field name="UseCharacterStats" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="UseWeaponDamage" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="UseWeaponProperties" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="Item_LOOT_AncientSkull_B" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Raise Skeletal Fire Mage " />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Target an intact corpse to raise a Skletal Mage that fight's for you. " />
+        <field name="FXScale" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="PrepareAnimationInit" type="StringStatObjectFieldDefinition" value="skill_prepare_voodoo_01_start" />
+        <field name="PrepareAnimationLoop" type="StringStatObjectFieldDefinition" value="skill_prepare_voodoo_01_loop" />
+        <field name="PrepareEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Voodoo_Prepare_Totem_BonePile_Root_01,KeepRot,Detach:Dummy_Root;RS3_FX_Soul_Prepare_Soul_LastRites_Hand_01:Dummy_R_Hand;RS3_FX_Soul_Prepare_Soul_LastRites_Hand_02:Dummy_R_Hand,Dummy_L_Hand;RS3_FX_Soul_Prepare_Soul_LastRites_Hand_Loop_01:Dummy_R_Hand,Dummy_L_Hand" />
+        <field name="CastAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_aoe_voodoo_01_cast" />
+        <field name="CastSelfAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_aoe_voodoo_01_cast" />
+        <field name="CastTextEvent" type="StringStatObjectFieldDefinition" value="cast" />
+        <field name="CastEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Soul_Prepare_Soul_LastRites_Hand_Loop_01:Dummy_R_Hand,Dummy_L_Hand;" />
+        <field name="TargetEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Soul_LivingEdge_Impact_01:root:cast;RS3_FX_Skills_Voodoo_Totem_Target_BonePile_01:root:cast" />
+        <field name="TargetGroundEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Soul_Cast_Beam_Soul_Hand_02,FaceSource:Dummy_BodyFX:cast;RS3_FX_Skills_Soul_Cast_Beam_Soul_Root_02,FaceSource" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="Necromancy 2, Summoning 2" />
+        <field name="PreviewEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Voodoo_Totem_Target_BonePile_01" />
+        <field name="IsEnemySkill" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="MemorizationRequirements" type="StringStatObjectFieldDefinition" value="Necromancy 5, Summoning 3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ConsumeSkeleton" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="Ability" type="EnumerationStatObjectFieldDefinition" value="9" enumeration_type_name="SkillAbility" />
+        <field name="Tier" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="SkillTier" />
+        <field name="ActionPoints" type="IntegerStatObjectFieldDefinition" value="2" />
+        <field name="Cooldown" type="IntegerStatObjectFieldDefinition" value="3" />
+        <field name="SkillProperties" type="StringStatObjectFieldDefinition" value="SELF:CONSUME_SKELETON,100,3;TARGET:DYING,100,-1,DoT;EXPLODE,100,1" />
+        <field name="TargetRadius" type="IntegerStatObjectFieldDefinition" value="13" />
+        <field name="AddWeaponRange" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="IsMelee" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DeathType" type="EnumerationStatObjectFieldDefinition" value="10" enumeration_type_name="Death Type" />
+        <field name="CanTargetCharacters" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="CanTargetItems" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="CanTargetTerrain" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Magic Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="TargetConditions" type="StringStatObjectFieldDefinition" value="Tagged:SUMMON_SKELETON|(Dead&amp;CanExplode)" />
+        <field name="UseCharacterStats" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="UseWeaponDamage" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="UseWeaponProperties" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="Skill_Decay_DecayingTouch" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Consume" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Consume your Skeletal Minion or a Corpse to heal yourself" />
+        <field name="FXScale" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="PrepareAnimationInit" type="StringStatObjectFieldDefinition" value="skill_prepare_touch_01_start" />
+        <field name="PrepareAnimationLoop" type="StringStatObjectFieldDefinition" value="skill_prepare_voodoo_01_loop" />
+        <field name="PrepareEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Voodoo_Prepare_Voodoo_Blood_Root_01,KeepRot;RS3_FX_Skills_Voodoo_Prepare_Touch_Decay_Hand_01:Dummy_R_HandFX,Dummy_L_HandFX;RS3_FX_Skills_Voodoo_Prepare_Voodoo_Decay_Root_01,KeepRot" />
+        <field name="CastAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_target_touch_01_cast" />
+        <field name="CastSelfAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_target_touch_01_cast" />
+        <field name="CastTextEvent" type="StringStatObjectFieldDefinition" value="cast" />
+        <field name="CastEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Voodoo_Cast_Decaying_Hand_02:Dummy_R_HandFX,Dummy_L_HandFX;RS3_FX_Skills_Voodoo_Cast_Decaying_Hand_01:Dummy_CastFX:cast" />
+        <field name="TargetEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Voodoo_Decaying_Impact_01:Dummy_BodyFX:cast" />
+        <field name="TargetGroundEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Voodoo_Decaying_Impact_01:root:cast" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="Necromancy 1" />
+        <field name="IsEnemySkill" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="MemorizationRequirements" type="StringStatObjectFieldDefinition" value="Necromancy 1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Necro_Deconstruct" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="IsEnemySkill" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Ability" type="EnumerationStatObjectFieldDefinition" value="9" enumeration_type_name="SkillAbility" />
+        <field name="ActionPoints" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Cooldown" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="SkillProperties" type="StringStatObjectFieldDefinition" value="Target:NECRO_DECONSTRUCT,100,1;" />
+        <field name="TargetRadius" type="IntegerStatObjectFieldDefinition" value="2" />
+        <field name="AddWeaponRange" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="IsMelee" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="!Combat" />
+        <field name="CanTargetCharacters" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="CanTargetItems" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="CanTargetTerrain" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Magic Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="TargetConditions" type="StringStatObjectFieldDefinition" value="Tagged:GOLEM" />
+        <field name="UseCharacterStats" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="UseWeaponDamage" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="UseWeaponProperties" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="Item_CONT_Corpse_A" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Deconstruct" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Deconstruct golem to it's inactive form." />
+        <field name="FXScale" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="PrepareAnimationInit" type="StringStatObjectFieldDefinition" value="skill_prepare_touch_01_start" />
+        <field name="PrepareAnimationLoop" type="StringStatObjectFieldDefinition" value="skill_prepare_voodoo_01_loop" />
+        <field name="PrepareEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Voodoo_Prepare_Touch_Decay_Hand_01:Dummy_R_HandFX,Dummy_L_HandFX;RS3_FX_Skills_Voodoo_Prepare_Voodoo_Decay_Root_01,KeepRot" />
+        <field name="CastAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_target_touch_01_cast" />
+        <field name="CastSelfAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_target_touch_01_cast" />
+        <field name="CastTextEvent" type="StringStatObjectFieldDefinition" value="cast" />
+        <field name="CastEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Voodoo_Cast_Decaying_Hand_02:Dummy_R_HandFX,Dummy_L_HandFX;RS3_FX_Skills_Voodoo_Cast_Decaying_Hand_01:Dummy_CastFX:cast" />
+        <field name="TargetEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Voodoo_Decaying_Impact_01:Dummy_BodyFX:cast" />
+        <field name="TargetGroundEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Voodoo_Decaying_Impact_01:root:cast" />
+        <field name="MemorizationRequirements" type="StringStatObjectFieldDefinition" value="Necromancy 3" />
+        <field name="Tier" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="SkillTier" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Necro_TouchOfTheGrave" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="IsEnemySkill" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Ability" type="EnumerationStatObjectFieldDefinition" value="9" enumeration_type_name="SkillAbility" />
+        <field name="Tier" type="EnumerationStatObjectFieldDefinition" value="3" enumeration_type_name="SkillTier" />
+        <field name="ActionPoints" type="IntegerStatObjectFieldDefinition" value="2" />
+        <field name="Cooldown" type="IntegerStatObjectFieldDefinition" value="6" />
+        <field name="SkillProperties" type="StringStatObjectFieldDefinition" value="Target:TOUCH_OF_GRAVE,100,1;Target:PLAY_DEAD,100,6" />
+        <field name="TargetRadius" type="IntegerStatObjectFieldDefinition" value="8" />
+        <field name="AddWeaponRange" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="IsMelee" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DeathType" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="Death Type" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="Necromancy 3" />
+        <field name="CanTargetCharacters" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="CanTargetItems" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="CanTargetTerrain" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Magic Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="TargetConditions" type="StringStatObjectFieldDefinition" value="Ally&amp;Player&amp;!Dead;!Tagged:SUMMON_SKELETON" />
+        <field name="UseCharacterStats" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="UseWeaponDamage" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="UseWeaponProperties" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="Skill_Racial_PlayDead" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Touch of the Grave" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Puts an ally in a dead like state. Removes an ally from combat, but the ally is almost killed in the process. Undead are immune to spell's damaging effect" />
+        <field name="FXScale" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="PrepareAnimationInit" type="StringStatObjectFieldDefinition" value="skill_prepare_soul_01_start" />
+        <field name="PrepareAnimationLoop" type="StringStatObjectFieldDefinition" value="skill_prepare_soul_01_loop" />
+        <field name="PrepareEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Soul_Prepare_Soul_Self_Hand_03:Dummy_R_HandFX" />
+        <field name="CastAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_self_soul_01_cast" />
+        <field name="CastTextEvent" type="StringStatObjectFieldDefinition" value="cast" />
+        <field name="CastEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Soul_Cast_Soul_Self_PlayDead_Hand_01:Dummy_R_HandFX;RS3_FX_Skills_Soul_Cast_Soul_Self_PlayDead_Hand_01_Texkey:Dummy_BodyFX:cast" />
+        <field name="MemorizationRequirements" type="StringStatObjectFieldDefinition" value="Necromancy 3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Necro_CorpseSummon" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="IsEnemySkill" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Ability" type="EnumerationStatObjectFieldDefinition" value="9" enumeration_type_name="SkillAbility" />
+        <field name="Tier" type="EnumerationStatObjectFieldDefinition" value="2" enumeration_type_name="SkillTier" />
+        <field name="ActionPoints" type="IntegerStatObjectFieldDefinition" value="3" />
+        <field name="Cooldown" type="IntegerStatObjectFieldDefinition" value="7" />
+        <field name="TargetRadius" type="IntegerStatObjectFieldDefinition" value="8" />
+        <field name="AreaRadius" type="IntegerStatObjectFieldDefinition" value="2" />
+        <field name="IsMelee" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DeathType" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="Death Type" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="Necromancy 2;Combat" />
+        <field name="MemorizationRequirements" type="StringStatObjectFieldDefinition" value="Necromancy 2" />
+        <field name="CanTargetCharacters" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="CanTargetItems" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="CanTargetTerrain" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="2" />
+        <field name="Magic Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="UseCharacterStats" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="UseWeaponDamage" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="UseWeaponProperties" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="Portrait_Creatures_Undead_Zombie_A" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Summon a Corpse" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Even though you might not see them, there are corpses everywhere around you... ehm, under you." />
+        <field name="FXScale" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="PrepareAnimationInit" type="StringStatObjectFieldDefinition" value="skill_prepare_totem_01_start" />
+        <field name="PrepareAnimationLoop" type="StringStatObjectFieldDefinition" value="skill_prepare_totem_01_loop" />
+        <field name="PrepareEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Voodoo_Prepare_Totem_BonePile_Root_01,KeepRot,Detach:Dummy_Root" />
+        <field name="CastAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_summon_totem_01_cast" />
+        <field name="CastTextEvent" type="StringStatObjectFieldDefinition" value="cast" />
+        <field name="CastEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Voodoo_Cast_Target_Voodoo_Blood_Root_01;RS3_FX_Skills_Voodoo_Cast_Aoe_Voodoo_Blood_Hand_01:Dummy_R_HandFX,Dummy_L_HandFX" />
+        <field name="TargetEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Voodoo_Impact_WormTremor_Root_01:root:cast" />
+        <field name="PositionEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Earth_RockSpikes_Cast_01;RS3_FX_Skills_Earth_TargetEffect_Fortify_Root_01;RS3_FX_Items_Attachments_Cadaver_Bone_Decal_Large_01" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>
