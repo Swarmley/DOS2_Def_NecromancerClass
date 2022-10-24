@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="003dbfb7-37e0-4ebe-881e-9158a4ccc716">
+  <stat_objects>
+    <stat_object index="0" is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" clear_inherited_value="false" value="BodyPart" />
+        <field name="Type" type="StringStatObjectFieldDefinition" clear_inherited_value="false" value="ObjectCategories" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" clear_inherited_value="false" value="Item_LOOT_BodyPart_D" />
+        <field name="Tooltip" type="StringStatObjectFieldDefinition" clear_inherited_value="false" value="Body part" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

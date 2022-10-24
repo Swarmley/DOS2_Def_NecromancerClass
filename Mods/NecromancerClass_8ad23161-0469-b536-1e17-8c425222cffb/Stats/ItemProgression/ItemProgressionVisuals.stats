@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="5d537a8b-7d4e-412b-a070-b23dc016aa4f">
+  <stat_objects>
+    <stat_object index="0" is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WPN_Necromancer_Preview_Staff" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="All" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="3b45c978-5a42-40b5-a7aa-183852616910" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="WPN_UNIQUE_AtaraxianScythe" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

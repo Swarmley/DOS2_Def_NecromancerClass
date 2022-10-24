@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="21465eb6-ebaf-4455-9f29-369759e000a9">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="StitchedCorpse" />
+        <field name="RecipeCategory" type="EnumerationStatObjectFieldDefinition" value="9" enumeration_type_name="RecipeCategory" />
+        <field name="Object 1" type="StringStatObjectFieldDefinition" value="BodyPart" />
+        <field name="Object 2" type="StringStatObjectFieldDefinition" value="BodyPart" />
+        <field name="ResultAmount 1" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Result 1" type="StringStatObjectFieldDefinition" value="SCROLL_Summon_FleshGolem" />
+        <field name="Type 1" type="EnumerationStatObjectFieldDefinition" value="2" enumeration_type_name="IngredientType" />
+        <field name="Transform 1" type="EnumerationStatObjectFieldDefinition" value="2" enumeration_type_name="IngredientTransformType" />
+        <field name="Type 2" type="EnumerationStatObjectFieldDefinition" value="2" enumeration_type_name="IngredientType" />
+        <field name="Transform 2" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="IngredientTransformType" />
+        <field name="PreviewStatsID" type="StringStatObjectFieldDefinition" value="SCROLL_Summon_FleshGolem" />
+        <field name="PreviewIcon" type="StringStatObjectFieldDefinition" value="Portrait_COR_Humans_BodyParts_Pile_C" />
+        <field name="Type 3" type="EnumerationStatObjectFieldDefinition" value="2" enumeration_type_name="IngredientType" />
+        <field name="Object 3" type="StringStatObjectFieldDefinition" value="BodyPart" />
+        <field name="Transform 3" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="IngredientTransformType" />
+        <field name="Type 4" type="EnumerationStatObjectFieldDefinition" value="2" enumeration_type_name="IngredientType" />
+        <field name="Object 4" type="StringStatObjectFieldDefinition" value="BodyPart" />
+        <field name="Transform 4" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="IngredientTransformType" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="GolemBonePile" />
+        <field name="Type 1" type="EnumerationStatObjectFieldDefinition" value="2" enumeration_type_name="IngredientType" />
+        <field name="Object 1" type="StringStatObjectFieldDefinition" value="Bone" />
+        <field name="Transform 1" type="EnumerationStatObjectFieldDefinition" value="2" enumeration_type_name="IngredientTransformType" />
+        <field name="Type 2" type="EnumerationStatObjectFieldDefinition" value="2" enumeration_type_name="IngredientType" />
+        <field name="Object 2" type="StringStatObjectFieldDefinition" value="Bone" />
+        <field name="Transform 2" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="IngredientTransformType" />
+        <field name="ResultAmount 1" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Result 1" type="StringStatObjectFieldDefinition" value="SCROLL_Summon_BoneGolem" />
+        <field name="PreviewStatsID" type="StringStatObjectFieldDefinition" value="SCROLL_Summon_BoneGolem" />
+        <field name="RecipeCategory" type="EnumerationStatObjectFieldDefinition" value="9" enumeration_type_name="RecipeCategory" />
+        <field name="PreviewIcon" type="StringStatObjectFieldDefinition" value="Item_CONT_Bones_A" />
+        <field name="Type 3" type="EnumerationStatObjectFieldDefinition" value="2" enumeration_type_name="IngredientType" />
+        <field name="Object 3" type="StringStatObjectFieldDefinition" value="Bone" />
+        <field name="Transform 3" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="IngredientTransformType" />
+        <field name="Type 4" type="EnumerationStatObjectFieldDefinition" value="2" enumeration_type_name="IngredientType" />
+        <field name="Object 4" type="StringStatObjectFieldDefinition" value="Bone" />
+        <field name="Transform 4" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="IngredientTransformType" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="TrustyCleaver" />
+        <field name="RecipeCategory" type="EnumerationStatObjectFieldDefinition" value="7" enumeration_type_name="RecipeCategory" />
+        <field name="Type 1" type="EnumerationStatObjectFieldDefinition" value="2" enumeration_type_name="IngredientType" />
+        <field name="Object 1" type="StringStatObjectFieldDefinition" value="Bone" />
+        <field name="Transform 1" type="EnumerationStatObjectFieldDefinition" value="2" enumeration_type_name="IngredientTransformType" />
+        <field name="Type 2" type="EnumerationStatObjectFieldDefinition" value="2" enumeration_type_name="IngredientType" />
+        <field name="Object 2" type="StringStatObjectFieldDefinition" value="Metal" />
+        <field name="ResultAmount 1" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Result 1" type="StringStatObjectFieldDefinition" value="LOOT_TrustyCleaver" />
+        <field name="PreviewStatsID" type="StringStatObjectFieldDefinition" value="LOOT_TrustyCleaver" />
+        <field name="PreviewIcon" type="StringStatObjectFieldDefinition" value="Item_TOOL_CleaverAxe_A_B" />
+        <field name="Transform 2" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="IngredientTransformType" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="PeelBodyPart" />
+        <field name="RecipeCategory" type="EnumerationStatObjectFieldDefinition" value="7" enumeration_type_name="RecipeCategory" />
+        <field name="Type 1" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="IngredientType" />
+        <field name="Object 1" type="StringStatObjectFieldDefinition" value="LOOT_TrustyCleaver" />
+        <field name="Transform 1" type="EnumerationStatObjectFieldDefinition" value="2" enumeration_type_name="IngredientTransformType" />
+        <field name="Type 2" type="EnumerationStatObjectFieldDefinition" value="2" enumeration_type_name="IngredientType" />
+        <field name="Object 2" type="StringStatObjectFieldDefinition" value="BodyPart" />
+        <field name="Transform 2" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="IngredientTransformType" />
+        <field name="ResultAmount 1" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Result 1" type="StringStatObjectFieldDefinition" value="LOOT_TrustyCleaver" />
+        <field name="ResultAmount 2" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Result 2" type="StringStatObjectFieldDefinition" value="LOOT_Bone_A" />
+        <field name="PreviewStatsID" type="StringStatObjectFieldDefinition" value="LOOT_Bone_A" />
+        <field name="PreviewIcon" type="StringStatObjectFieldDefinition" value="Item_LOOT_Bone_A" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

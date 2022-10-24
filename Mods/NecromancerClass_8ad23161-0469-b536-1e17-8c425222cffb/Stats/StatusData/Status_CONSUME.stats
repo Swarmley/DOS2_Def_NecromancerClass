@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="e2a8d59b-0e34-4a7c-bf5f-db7a2bb34cde">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SUMMON_NECRO" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="BringIntoCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Control" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="NECRO_CONTROL" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Command Undead" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="You are able to control your lesser undead Minions" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="statIcons_Cursed" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="30" enumeration_type_name="FormatStringColor" />
+        <field name="BringIntoCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Toggle" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="NECRO_DECONSTRUCT" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="BringIntoCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Deconstruct" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Golem is being deconstructed" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="statIcons_Cursed" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="6" enumeration_type_name="FormatStringColor" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="NECRO_ACTIVE_GOLEM" />
+        <field name="Toggle" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="TOUCH_OF_GRAVE" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="NECRO_ACTIVE_SKELETON" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="NECRO_ACTIVE_FLESH_GOLEM" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="NECRO_ACTIVE_GOLEM" />
+        <field name="Skills" type="StringStatObjectFieldDefinition" value="Target_Necro_Deconstruct" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="NECRO_ACTIVE_BONE_GOLEM" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="NECRO_ACTIVE_GOLEM" />
+        <field name="Skills" type="StringStatObjectFieldDefinition" value="Target_Necro_Deconstruct" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="NECRO_SKELETAL_MAGE_WATER" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="NECRO_SKELETAL_MAGE" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="NECRO_SKELETAL_MAGE" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="BringIntoCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="statIcons_Cursed" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="FormatStringColor" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="NECRO_SKELETAL_MAGE_FIRE" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="NECRO_SKELETAL_MAGE" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="NECRO_SKELETAL_MAGE_POISEN" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="NECRO_SKELETAL_MAGE" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="NECRO_SKELETAL_MAGE_BLOOD" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="NECRO_SKELETAL_MAGE" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

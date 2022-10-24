@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="68e50044-f0bd-499d-94ad-7aa52f7abe18">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Character_Creation" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Projectile_FlamingDaggers" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Character_Creation_substat_0" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Character_Creation" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_BurnMyEyes" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Character_Creation_substat_1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Character_Creation" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_Haste" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Character_Creation_substat_2" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Character_Creation" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Shout_Ignition" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Character_Creation_substat_3" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Character_Creation" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="ProjectileStrike_HailStrike" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Character_Creation_substat_4" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Character_Creation" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_CripplingBlow" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Character_Creation_substat_5" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Character_Creation" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_FrostyShell" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Character_Creation_substat_6" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Character_Creation" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Rain_Water" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Character_Creation_substat_7" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Character_Creation" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_Restoration" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Character_Creation_substat_8" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Character_Creation" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Projectile_PyroclasticRock" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Character_Creation_substat_9" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Character_Creation" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_Fortify" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Character_Creation_substat_10" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Character_Creation" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_ShockingTouch" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Character_Creation_substat_11" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Character_Creation" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Projectile_LightningBolt" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Character_Creation_substat_12" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Character_Creation" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Shout_FavourableWind" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Character_Creation_substat_13" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Character_Creation" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_BloatedCorpse" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Character_Creation_substat_14" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Character_Creation" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_MosquitoSwarm" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Character_Creation_substat_15" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Character_Creation" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_BloodBubble" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Character_Creation_substat_16" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Character_Creation" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_DecayingTouch" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Character_Creation_substat_17" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Character_Creation" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Cone_GroundSmash" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Character_Creation_substat_18" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Character_Creation" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Rush_BatteringRam" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Character_Creation_substat_19" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Character_Creation" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Projectile_BouncingShield" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Character_Creation_substat_20" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Character_Creation" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Shout_Adrenaline" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Character_Creation_substat_21" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Character_Creation" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Projectile_ThrowingKnife" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Character_Creation_substat_22" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Character_Creation" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="MultiStrike_Vault" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Character_Creation_substat_23" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Character_Creation" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Projectile_Chloroform" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Character_Creation_substat_24" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Character_Creation" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_ElementalArrowheads" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Character_Creation_substat_25" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Character_Creation" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_FirstAid" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Character_Creation_substat_26" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Character_Creation" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Projectile_PinDown" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Character_Creation_substat_27" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Character_Creation" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Projectile_Ricochet" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Character_Creation_substat_28" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Character_Creation" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Shout_Contamination" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Character_Creation_substat_29" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Character_Creation" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Projectile_PoisonDartStart" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Character_Creation_substat_30" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Character_Creation" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Shout_BlindingRadiance" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Character_Creation_substat_31" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Character_Creation" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_ChickenTouch" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Character_Creation_substat_32" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Character_Creation" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_TentacleLash" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Character_Creation_substat_33" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Character_Creation" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Shout_BullHorns" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Character_Creation_substat_34" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Character_Creation" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Shout_ChameleonSkin" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Character_Creation_substat_35" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Character_Creation" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Summon_Incarnate" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Character_Creation_substat_36" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Character_Creation" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Projectile_DimensionalBolt" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Character_Creation_substat_37" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Character_Creation" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Summon_TotemFromSurface" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Character_Creation_substat_38" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Character_Creation" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_RangedInfusion" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Character_Creation_substat" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_SkeletalWarrior" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Character_Creation" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_1" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_ConsumeSkeleton" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Character_Creation" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="FleshGolem" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Shout_Tranfusion" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="FleshGolem_substat" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_BloodPact" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="FleshGolem" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_0" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_IncarnateMosquitoSwarm" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="FleshGolem" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Summon_SkeletalArcher" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Jump_EnemyTacticalRetreat" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Summon_SkeletalFireMage" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Projectile_SkeletalFireball" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="BoneGolem" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Shout_BoneGolemBoneCage" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="BoneGolem_substat" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Shout_IncarnateTaunt" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="BoneGolem" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Class_Necromancer" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_SkeletalWarrior" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Class_Necromancer_substat" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_MosquitoSwarm" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Class_Necromancer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_2" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_ConsumeSkeleton" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Class_Necromancer" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>
