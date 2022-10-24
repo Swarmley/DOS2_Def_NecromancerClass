@@ -4,15 +4,22 @@ SourceControlGenerator.json
 
 # Levels
 ######################
+<<<<<<< HEAD
 Mods/NecromancerClass_8ad23161-0469-b536-1e17-8c425222cffb/Levels/*
 Mods/NecromancerClass_8ad23161-0469-b536-1e17-8c425222cffb/Globals/*
 Editor/Mods/NecromancerClass_8ad23161-0469-b536-1e17-8c425222cffb/Levels/*
+=======
+Mods/01_bfaf6341-342b-df09-8562-c77b38900a59/Levels/*
+Mods/01_bfaf6341-342b-df09-8562-c77b38900a59/Globals/*
+Editor/Mods/01_bfaf6341-342b-df09-8562-c77b38900a59/Levels/*
+>>>>>>> 2ba02e87692df1a67c75de7ddac142e9f7dfb07c
 
 # Story files        #
 ######################
 *.div
 *.raw
 story_orphanqueries_ignore.txt
+<<<<<<< HEAD
 Mods/NecromancerClass_8ad23161-0469-b536-1e17-8c425222cffb/Story/Dialogs/Autosave/*
 Mods/NecromancerClass_8ad23161-0469-b536-1e17-8c425222cffb/Story/Dialogs/Recovered/*
 
@@ -20,6 +27,15 @@ Mods/NecromancerClass_8ad23161-0469-b536-1e17-8c425222cffb/Story/Dialogs/Recover
 ######################
 Public/NecromancerClass_8ad23161-0469-b536-1e17-8c425222cffb/Assets/*
 #Public/NecromancerClass_8ad23161-0469-b536-1e17-8c425222cffb/GUI/*
+=======
+Mods/01_bfaf6341-342b-df09-8562-c77b38900a59/Story/Dialogs/Autosave/*
+Mods/01_bfaf6341-342b-df09-8562-c77b38900a59/Story/Dialogs/Recovered/*
+
+# Asset Folders      #
+######################
+Public/01_bfaf6341-342b-df09-8562-c77b38900a59/Assets/*
+#Public/01_bfaf6341-342b-df09-8562-c77b38900a59/GUI/*
+>>>>>>> 2ba02e87692df1a67c75de7ddac142e9f7dfb07c
 
 # Editor files       #
 ######################
