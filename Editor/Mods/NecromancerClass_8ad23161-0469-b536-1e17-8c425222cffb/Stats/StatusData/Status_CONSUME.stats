@@ -39,16 +39,19 @@
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="NECRO_ACTIVE_GOLEM" />
         <field name="Toggle" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Golem" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="TOUCH_OF_GRAVE" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Touch Of The Grave" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="NECRO_ACTIVE_SKELETON" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Skeleton" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

@@ -1,0 +1,4 @@
+new namegroup "WPN_Necromancer_Preview_Staff"
+add name "The Promise Breaker",""
+add namecool "|The Promise Breaker|",""
+

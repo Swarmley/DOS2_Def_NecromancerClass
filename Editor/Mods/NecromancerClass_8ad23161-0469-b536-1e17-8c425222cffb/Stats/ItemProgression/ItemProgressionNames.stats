@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <stats stat_object_definition_id="a46ee13b-92c9-474f-9b83-2561b63cf414">
   <stat_objects>
-    <stat_object index="0" is_substat="false">
+    <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="WPN_Necromancer_Preview_Staff" />
-        <field name="ItemName" type="StringStatObjectFieldDefinition" value="|The Promise Breaker|" />
-        <field name="Description" type="StringStatObjectFieldDefinition" value="|The Promise Breaker description|" />
+        <field name="ItemName" type="TranslatedStringStatObjectFieldDefinition" value="The Promise Breaker" />
+        <field name="NameCool" type="TranslatedStringStatObjectFieldDefinition" value="|The Promise Breaker|" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="|The Promise Breaker description|" />
       </fields>
     </stat_object>
   </stat_objects>
