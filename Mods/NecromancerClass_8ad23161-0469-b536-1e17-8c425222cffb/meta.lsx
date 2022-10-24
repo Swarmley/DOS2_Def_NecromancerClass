@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <save>
     <header version="2" />
-    <version major="3" minor="6" revision="3" build="1" />
+    <version major="3" minor="6" revision="6" build="0" />
     <region id="Config">
         <node id="root">
             <children>
@@ -12,7 +12,7 @@
                             <attribute id="MD5" value="" type="23" />
                             <attribute id="Name" value="Divinity: Original Sin 2" type="22" />
                             <attribute id="UUID" value="1301db3d-1f54-4e98-9be5-5094030916e4" type="22" />
-                            <attribute id="Version" value="371465211" type="4" />
+                            <attribute id="Version" value="373234071" type="4" />
                         </node>
                     </children>
                 </node>
@@ -20,6 +20,8 @@
                     <attribute id="Author" value="Swarmley" type="30" />
                     <attribute id="CharacterCreationLevelName" value="" type="22" />
                     <attribute id="Description" value="" type="30" />
+                    <attribute id="DescriptionName" value="" handle="ls::TranslatedStringRepository::s_HandleUnknown" type="28" />
+                    <attribute id="DisplayName" value="" handle="ls::TranslatedStringRepository::s_HandleUnknown" type="28" />
                     <attribute id="Folder" value="NecromancerClass_8ad23161-0469-b536-1e17-8c425222cffb" type="30" />
                     <attribute id="GMTemplate" value="" type="22" />
                     <attribute id="LobbyLevelName" value="" type="22" />
@@ -35,7 +37,7 @@
                     <attribute id="Version" value="67239945" type="4" />
                     <children>
                         <node id="PublishVersion">
-                            <attribute id="Version" value="908338577" type="4" />
+                            <attribute id="Version" value="909321303" type="4" />
                         </node>
                         <node id="Scripts">
                             <children>

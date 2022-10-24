@@ -44,5 +44,15 @@
         <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="Club,Hammer" />
       </fields>
     </stat_object>
+    <stat_object index="3" is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="_FTJ_Magister_Melee_Sword" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_NpcSwords" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="WPN_Sword_1H_Human_01" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="HumansCommon" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

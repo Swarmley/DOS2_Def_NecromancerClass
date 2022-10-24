@@ -43,6 +43,7 @@
         <field name="HealType" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="HealValueType" />
         <field name="HealValue" type="IntegerStatObjectFieldDefinition" value="-99" />
         <field name="Necromantic" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Touch of the grave" />
       </fields>
     </stat_object>
   </stat_objects>

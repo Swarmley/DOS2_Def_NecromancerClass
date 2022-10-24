@@ -56,6 +56,7 @@
         <field name="Name" type="NameStatObjectFieldDefinition" value="NECRO_ACTIVE_FLESH_GOLEM" />
         <field name="Using" type="BaseClassStatObjectFieldDefinition" value="NECRO_ACTIVE_GOLEM" />
         <field name="Skills" type="StringStatObjectFieldDefinition" value="Target_Necro_Deconstruct" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Flesh Golem" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -63,12 +64,14 @@
         <field name="Name" type="NameStatObjectFieldDefinition" value="NECRO_ACTIVE_BONE_GOLEM" />
         <field name="Using" type="BaseClassStatObjectFieldDefinition" value="NECRO_ACTIVE_GOLEM" />
         <field name="Skills" type="StringStatObjectFieldDefinition" value="Target_Necro_Deconstruct" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Bone Golem" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="NECRO_SKELETAL_MAGE_WATER" />
         <field name="Using" type="BaseClassStatObjectFieldDefinition" value="NECRO_SKELETAL_MAGE" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Water Infusion" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -79,24 +82,28 @@
         <field name="BringIntoCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
         <field name="Icon" type="StringStatObjectFieldDefinition" value="statIcons_Cursed" />
         <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="FormatStringColor" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Nothing" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="NECRO_SKELETAL_MAGE_FIRE" />
         <field name="Using" type="BaseClassStatObjectFieldDefinition" value="NECRO_SKELETAL_MAGE" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Fire Infusion" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="NECRO_SKELETAL_MAGE_POISEN" />
         <field name="Using" type="BaseClassStatObjectFieldDefinition" value="NECRO_SKELETAL_MAGE" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Poison Infusion" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="NECRO_SKELETAL_MAGE_BLOOD" />
         <field name="Using" type="BaseClassStatObjectFieldDefinition" value="NECRO_SKELETAL_MAGE" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Blood Infusion" />
       </fields>
     </stat_object>
   </stat_objects>
